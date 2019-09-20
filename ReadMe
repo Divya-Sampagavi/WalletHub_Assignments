@@ -14,7 +14,6 @@ userActions.java contains the reusable methods used for test cases
 passwordEncrytion.java file is used if user wants to encrypt the password
 
 How to run the test case:
-Right click on the testRunner.java and select Run As > TestNG Test. Execution will be started from opening facebook, entering the credentials and posting the message.
-followed by opening the wallet hub url and posting the review.
+Right click on the testRunner.java and select Run As > TestNG Test. Execution will be started from opening facebook, entering the credentials and posting the message. Followed by opening the wallet hub url and posting the review.
 
 
