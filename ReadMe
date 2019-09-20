@@ -12,6 +12,8 @@ StepDefinition.java file contains the logic of each step in the feature file
 testRunner.java is a configuration file used to run the feature file
 userActions.java contains the reusable methods used for handling different actions related to webelements
 passwordEncrytion.java file is used if user wants to encrypt the password.
+Note: If password is changed, then the respective value should be updated in the feature file.
+Example: facebook.feature > line 10 > 3rd parameter
 
 How to run the test case:
 Right click on the testRunner.java and select Run As > TestNG Test. 
