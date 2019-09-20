@@ -1,0 +1,14 @@
+Framework used: Selenium with TestNg using cucumber
+
+Download or Clone the repository from the given location
+Open the eclipse and Navigate to File > Open projects from file system
+locators.json file contains the list of object property to identify the webelements
+feature file contains the test case steps
+Step definition file contains the logic of test case step
+Test runner is a configuration file used to run the feature file.
+userActions.java contains the reusable methods used for test cases
+
+How to run the test case:
+Right click on the testRunner.java and select Run As > TestNG Test
+
+
