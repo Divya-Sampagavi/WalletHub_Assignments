@@ -5,15 +5,17 @@ Open the eclipse and Navigate to File > Open projects from file system
 
 Explaination of files in the folder structure:
 locators.java file contains the list of object property to identify the webelements
-pageObjects.java file contains the method of the locators
-facebook.feature file contains the test case for facebook
-wallethub.feature file contains the test case for wallet hub
-StepDefinition.java file contains the logic of each step in the test case 
+pageObjects.java file contains the page objects with locators
+facebook.feature file contains the test case for facebook(Assignment #1)
+wallethub.feature file contains the test case for wallet hub (Assignment #2)
+StepDefinition.java file contains the logic of each step in the feature file
 testRunner.java is a configuration file used to run the feature file
-userActions.java contains the reusable methods used for test cases
-passwordEncrytion.java file is used if user wants to encrypt the password
+userActions.java contains the reusable methods used for handling different actions related to webelements
+passwordEncrytion.java file is used if user wants to encrypt the password.
 
 How to run the test case:
-Right click on the testRunner.java and select Run As > TestNG Test. Execution will be started from opening facebook, entering the credentials and posting the message. Followed by opening the wallet hub url and posting the review.
+Right click on the testRunner.java and select Run As > TestNG Test. 
+Execution will be started from opening facebook, entering the credentials and posting the message. 
+Followed by opening the wallet hub url and posting the review.
 
 
