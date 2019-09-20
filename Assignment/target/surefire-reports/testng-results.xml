@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-09-06T12:16:50 IST" name="testRunner.TestRunner" finished-at="2019-09-06T12:17:04 IST" duration-ms="14163">
+    <groups>
+    </groups>
+    <test started-at="2019-09-06T12:16:50 IST" name="Command line test" finished-at="2019-09-06T12:17:04 IST" duration-ms="14163">
+      <class name="testRunner.TestRunner">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testRunner.TestRunner@74e52303]" started-at="2019-09-06T12:16:50 IST" name="setUp" finished-at="2019-09-06T12:16:55 IST" duration-ms="4547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="review(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner.TestRunner@74e52303]" started-at="2019-09-06T12:16:55 IST" name="review" data-provider="features" finished-at="2019-09-06T12:17:04 IST" duration-ms="9497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rate the walletHub site]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- review -->
+      </class> <!-- testRunner.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- testRunner.TestRunner -->
+</testng-results>
